@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "type": "module",
+  "name": "@var3n1k/",
+  "description": "",
+  "keywords": [
+    ""
+  ],
+  "author": {
+    "name": "Name Surname",
+    "email": "email@host.com",
+    "url": "https://url.com"
+  },
+  "contributors": [
+    {
+      "name": "Name Surname",
+      "email": "email@host.com",
+      "url": "https://url.com"
+    }
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/var3n1k/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/var3n1k/.git"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/profile"
+    }
+  ],
+  "bugs": {
+    "url": "https://url.com",
+    "email": "email@host.com"
+  },
+  "main": "./build/src/index.mjs",
+  "module": "./build/src/index.mjs",
+  "types": "./build/types/index.d.mts",
+  "typings": "./build/types/index.d.mts",
+  "files": [
+    "./build/src",
+    "./build/src/**/*",
+    "./build/types",
+    "./build/types/**/*",
+    "./package.json",
+    "./README.md"
+  ],
+  "scripts": {
+    "dontCloseAfterScript": "pause",
+    "deletePreviousProjectBuild": "rimraf ./build",
+    "createNewProjectBuild": "tsc",
+    "executeMainDevFile": "npx ts-node ./src/index.mts",
+    "executeMainProdFile": "node ./build/src/index.mjs",
+    "executeMainTestFile": "node ./test/index.mjs",
+    "predev": "echo Running Before-Development script...",
+    "dev": "echo Running Development script... & npm run executeMainDevFile",
+    "postdev": "echo Running After-Development script...",
+    "prebuild": "echo Running Before-Build script...",
+    "build": "echo Running Build script... & npm run deletePreviousProjectBuild & npm run createNewProjectBuild",
+    "postbuild": "echo Running After-Build script...",
+    "preprod": "echo Running Before-Production script...",
+    "prod": "echo Running Production script... & npm run executeMainProdFile",
+    "postprod": "echo Running After-Production script...",
+    "pretest": "echo Running Before-Testing script...",
+    "test": "echo Running Testing script... & npm run executeMainTestFile",
+    "posttest": "echo Running After-Testing script...",
+    "preversion": "echo Running Before-Version script...",
+    "version": "echo Error: no Version script specified...",
+    "postversion": "echo Running After-Version script...",
+    "prestart": "echo Running Before-Start script...",
+    "start": "echo Error: no Start script specified...",
+    "poststart": "echo Running After-Start script...",
+    "prestop": "echo Running Before-Stop script...",
+    "stop": "echo Error: no Stop script specified...",
+    "poststop": "echo Running After-Stop script...",
+    "prerestart": "echo Running Before-Restart script...",
+    "restart": "echo Error: no Restart script specified...",
+    "postrestart": "echo Running After-Restart script...",
+    "preinstall": "echo Running Before-Install script...",
+    "install": "echo Error: no Install script specified...",
+    "postinstall": "echo Running After-Install script...",
+    "preuninstall": "echo Running Before-Uninstall script...",
+    "uninstall": "echo Error: no Uninstall script specified...",
+    "postuninstall": "echo Running After-Uninstall script...",
+    "prepack": "echo Running Before-Pack script...",
+    "postpack": "echo Running After-Pack script...",
+    "prepublish": "echo Running Before-Publish and Before-Prepare script...",
+    "prepare": "echo Error: no Prepare script specified...",
+    "prepublishOnly": "echo Running Before-Publish and After-Prepare script...",
+    "publish": "echo Error: no Publish script specified...",
+    "postpublish": "echo Running After-Publish script..."
+  },
+  "config": {},
+  "engines": {
+    "node": "^12.20.0 || >=14.13.1",
+    "npm": ">= 7.0.0"
+  },
+  "os": [],
+  "cpu": [],
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/var3n1k",
+    "access": "public"
+  },
+  "dependencies": {
+    "@var3n1k/server-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.5",
+    "rimraf": "^4.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "peerDependenciesMeta": {
+    "": {
+      "optional": false
+    }
+  },
+  "bundledDependencies": []
+}
