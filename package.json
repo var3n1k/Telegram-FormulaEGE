@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "type": "module",
-  "name": "@var3n1k/",
-  "description": "",
+  "name": "@var3n1k/telegram-formula-ege",
+  "description": "Formula EGE Telegram bot",
   "keywords": [
-    ""
+    "telegram-formula-ege"
   ],
   "author": {
     "name": "Name Surname",
@@ -19,10 +19,10 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/var3n1k/#readme",
+  "homepage": "https://github.com/var3n1k/Telegram-FormulaEGE#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/var3n1k/.git"
+    "url": "https://github.com/var3n1k/Telegram-FormulaEGE.git"
   },
   "funding": [
     {
@@ -104,7 +104,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@var3n1k/server-core": "^1.0.0"
+    "@var3n1k/mail": "^1.0.0",
+    "@var3n1k/server-core": "^1.0.0",
+    "@var3n1k/telegram": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.16.5",
