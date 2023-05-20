@@ -332,7 +332,7 @@
 
 ### Добавление бота
 
-- Для добавления бота [Formula ЕГЭ](http://t.me/FormulaEGEBot) перейдите по ссылке и введите любую из нижепредложенных команд
+- Для добавления [бота](https://t.me/Test_DeveIopment_Bot) перейдите по ссылке и введите любую из нижепредложенных команд
 
   ![commands_list.png](assets/examples/command/commands_list.png)
 
